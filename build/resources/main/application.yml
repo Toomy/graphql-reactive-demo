@@ -1,0 +1,13 @@
+spring:
+    graphql:
+        graphiql:
+            enabled: true
+    r2dbc:
+        url: r2dbc:postgresql://localhost:5432/itest
+        name: itest
+        username: pgitest
+        password: 5FsTWS8jAnbW
+
+server:
+    port: 8080
+
